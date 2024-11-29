@@ -16,6 +16,9 @@
         .btn-align {
             margin: 0;
         }
+        .right-align {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
@@ -83,8 +86,13 @@
                 </ul>
             </div>
         </div>
-        <div class="row center-align">
-            <a href="#!" class="btn-large teal">CONTINUAR COMPRA</a>
+        <div class="row">
+            <div class="col s12 right-align">
+                <a href="#!" class="btn-large teal">
+                    CONTINUAR COMPRA
+                    <i class="material-icons right">send</i>
+                </a>
+            </div>
         </div>
     </div>
    
